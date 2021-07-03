@@ -14,7 +14,6 @@ async function getAllSku() {
       let product = res.data.Products[i];
       let id = product.Id;
       let name = product.Name;
-      let image = product.Images.length > 0 ? product.Images[0].Url : "";
       let fileName = name
         .replace(" ", "_")
         .replace(/[\W_]+/g, "_")
@@ -30,16 +29,12 @@ async function getAllSku() {
         productRes = await axios.get(productUrl);
       } catch {}
       let options = new Array()
-      let description = productRes.data.product.desc
       for (let j = 0; j < productRes.data.product.regions.length; j++) {
         let region = productRes.data.product.regions[j];
         for (let m = 0; m < region["sub-categories"].length; m++) {
           let subCate = region["sub-categories"][m];
           for (let n = 0; n < subCate.attributes.length; n++) {
             let attr = subCate.attributes[n];
-            if (attr.name != undefined && attr.name == "main image") {
-              image = attr.url
-            }
             if (attr.id != undefined) {
               options.push({
                 "id": attr.id,
@@ -111,16 +106,14 @@ async function getAllSku() {
         id: uuidv4(),
         name,
         vendor: "Gooten",
-        product_id: id,
-        description,
-        image,
+        productId: id,
         metadata
       }
       vendorProducts.push(vendorProduct)
       product_types.forEach(pType => {
         let productType = {
           id: uuidv4(),
-          vendor_product_id: vendorProduct.id,
+          vendorProductID: vendorProduct.id,
           name: pType.name,
           code: pType.code,
           sku: pType.sku
@@ -140,22 +133,26 @@ async function getAllSku() {
         }
         costCenters.push(costCenter)
       })
+      vendorProduct.costCenters = costCenters
       console.log(id)
     }
-      fs.writeFile(`./data/final/vendor_products.json`, JSON.stringify(vendorProducts, null, 2), (err) => {
-        if (err) {
-        }
-      });
-      //
-      fs.writeFile(`./data/final/product_types.json`, JSON.stringify(productTypes, null, 2), (err) => {
-        if (err) {
-        }
-      });
-      //
-      fs.writeFile(`./data/final/cost_centers.json`, JSON.stringify(costCenters, null, 2), (err) => {
-        if (err) {
-        }
-      });
+    // call api
+    
+    // write files
+    // fs.writeFile(`./data/final/vendor_products.json`, JSON.stringify(vendorProducts, null, 2), (err) => {
+    //   if (err) {
+    //   }
+    // });
+    // //
+    // fs.writeFile(`./data/final/product_types.json`, JSON.stringify(productTypes, null, 2), (err) => {
+    //   if (err) {
+    //   }
+    // });
+    // //
+    // fs.writeFile(`./data/final/cost_centers.json`, JSON.stringify(costCenters, null, 2), (err) => {
+    //   if (err) {
+    //   }
+    // });
     //
     console.log("finish");
   } catch (err) {

@@ -5,8 +5,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
-
-	"gopkg.in/resty.v1"
 )
 
 type UploadSession struct {

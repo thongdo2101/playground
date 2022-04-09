@@ -5,6 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
+
+	"github.com/go-resty/resty/v2"
 )
 
 type UploadSession struct {

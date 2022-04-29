@@ -6,6 +6,7 @@ require (
 	github.com/adjust/redismq v0.0.0-20170113163246-e2a56d9bb404
 	github.com/araddon/dateparse v0.0.0-20210429162001-6b43995a97de
 	github.com/denisbrodbeck/machineid v1.0.1
+	github.com/fatih/structs v1.1.0
 	github.com/friendsofgo/errors v0.9.2 // indirect
 	github.com/garyburd/redigo v1.6.2 // indirect
 	github.com/go-resty/resty/v2 v2.7.0

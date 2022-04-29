@@ -3,21 +3,25 @@ package main
 import (
 	"crypto/rand"
 	"crypto/rsa"
-	"crypto/sha1"
+	"crypto/sha256"
 	"crypto/x509"
 	"encoding/base64"
 	"encoding/pem"
 	"fmt"
 	"io/ioutil"
 	"time"
-
-	"github.com/denisbrodbeck/machineid"
 )
 
 func main() {
-	id, err := machineid.ID()
-	CheckError(err)
-	fmt.Println(id)
+	// GeneratePublicKeyEncryption()
+	Exec()
+}
+
+func Exec() {
+	// id, err := machineid.ID()
+	// CheckError(err)
+	// fmt.Println(id)
+	id := "godgroup2022"
 	fmt.Println("---")
 	pubFile, err := ioutil.ReadFile("./key.rsa.pub")
 	CheckError(err)
@@ -90,7 +94,7 @@ func CheckError(e error) {
 func RSA_OAEP_Encrypt(secretMessage []byte, key rsa.PublicKey) []byte {
 	label := []byte("")
 	rng := rand.Reader
-	ciphertext, err := rsa.EncryptOAEP(sha1.New(), rng, &key, secretMessage, label)
+	ciphertext, err := rsa.EncryptOAEP(sha256.New(), rng, &key, secretMessage, label)
 	CheckError(err)
 	return ciphertext
 }
@@ -98,7 +102,7 @@ func RSA_OAEP_Encrypt(secretMessage []byte, key rsa.PublicKey) []byte {
 func RSA_OAEP_Decrypt(cipherText []byte, privKey rsa.PrivateKey) []byte {
 	label := []byte("")
 	rng := rand.Reader
-	plaintext, err := rsa.DecryptOAEP(sha1.New(), rng, &privKey, cipherText, label)
+	plaintext, err := rsa.DecryptOAEP(sha256.New(), rng, &privKey, cipherText, label)
 	CheckError(err)
 	return plaintext
 }

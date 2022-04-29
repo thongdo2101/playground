@@ -1,0 +1,362 @@
+[
+  {
+    "name": "api get file dựa theo slug và asymetric keys auth",
+    "status": "Completed",
+    "project": "GODrive",
+    "members": ["Trần Văn Hùng"],
+    "startDate": "2022-04-26",
+    "endDate": "2022-04-26",
+    "storyPoint": 1,
+    "extra": false
+  },
+  {
+    "name": "BE - xử lý cảnh bảo và ngăn chặn khi upload file có tên chứa kí tự emoji",
+    "status": "Completed",
+    "project": "GODrive",
+    "members": ["Trần Văn Hùng"],
+    "startDate": "2022-04-26",
+    "endDate": "2022-04-26",
+    "storyPoint": 0.5,
+    "extra": false
+  },
+  {
+    "name": "api tạo store customer",
+    "status": "Todo",
+    "project": "GOD System",
+    "members": ["Trần Văn Hùng"],
+    "startDate": "2022-04-29",
+    "endDate": "2022-04-29",
+    "storyPoint": 3,
+    "extra": false
+  },
+  {
+    "name": "api read one, read pagination store customers, and delete",
+    "status": "Todo",
+    "project": "GOD System",
+    "members": ["Trần Văn Hùng"],
+    "startDate": "2022-04-29",
+    "endDate": "2022-04-29",
+    "storyPoint": 2,
+    "extra": false
+  },
+  {
+    "name": "api update store customer",
+    "status": "Todo",
+    "project": "GOD System",
+    "members": ["Trần Văn Hùng"],
+    "startDate": "2022-04-29",
+    "endDate": "2022-04-29",
+    "storyPoint": 2,
+    "extra": false
+  },
+  {
+    "name": "FB MKP - Check version of extension",
+    "status": "Completed",
+    "project": "GOD System",
+    "members": ["Đỗ Văn Thông"],
+    "startDate": "2022-04-26",
+    "endDate": "2022-04-26",
+    "storyPoint": 2,
+    "extra": false
+  },
+  {
+    "name": "Bulk Edit Vendor For Items - Search Items by cost center id",
+    "status": "Completed",
+    "project": "GOD System",
+    "members": ["Đỗ Văn Thông"],
+    "startDate": "2022-04-27",
+    "endDate": "2022-04-27",
+    "storyPoint": 0.5,
+    "extra": true
+  },
+  {
+    "name": "api update store information",
+    "status": "In Progress",
+    "project": "GOD System",
+    "members": ["Đình Quân"],
+    "startDate": "2022-04-26",
+    "endDate": "2022-04-26",
+    "storyPoint": 0.5,
+    "extra": false
+  },
+  {
+    "name": "api create rule",
+    "status": "In Progress",
+    "project": "GOD System",
+    "members": ["Đình Quân"],
+    "startDate": "2022-04-26",
+    "endDate": "2022-04-26",
+    "storyPoint": 3,
+    "extra": false
+  },
+  {
+    "name": "api update rule",
+    "status": "In Progress",
+    "project": "GOD System",
+    "members": ["Đình Quân"],
+    "startDate": "2022-04-29",
+    "endDate": "2022-04-29",
+    "storyPoint": 2,
+    "extra": false
+  },
+  {
+    "name": "api read one, read pagination rules, and delete",
+    "status": "In Progress",
+    "project": "GOD System",
+    "members": ["Đình Quân"],
+    "startDate": "2022-04-28",
+    "endDate": "2022-04-28",
+    "storyPoint": 1,
+    "extra": false
+  },
+  {
+    "name": "Build UI Drawer Bulk Edit Vendor + UI phần search Orders + Ghép API hiển thị list Order",
+    "status": "Completed",
+    "project": "GOD System",
+    "members": ["Nguyễn Tài Đạt"],
+    "startDate": "2022-04-27",
+    "endDate": "2022-04-27",
+    "storyPoint": 0,
+    "extra": true
+  },
+  {
+    "name": "Build UI + ghép API phần chọn vendor + Confirm Vendor",
+    "status": "Completed",
+    "project": "GOD System",
+    "members": ["Nguyễn Tài Đạt"],
+    "startDate": "2022-04-27",
+    "endDate": "2022-04-27",
+    "storyPoint": 0,
+    "extra": true
+  },
+  {
+    "name": "Sửa lại phần campaign mockup theo variants",
+    "status": "In Progress",
+    "project": "GOD System",
+    "members": ["Nguyễn Tài Đạt"],
+    "startDate": "2022-04-26",
+    "endDate": "2022-04-26",
+    "storyPoint": 8,
+    "extra": false
+  },
+  {
+    "name": "Update phần chọn design ở campaign, gọi API từ GODrive",
+    "status": "In Progress",
+    "project": "GOD System",
+    "members": ["Nguyễn Tài Đạt"],
+    "startDate": "2022-04-26",
+    "endDate": "2022-04-26",
+    "storyPoint": 3,
+    "extra": false
+  },
+  {
+    "name": "Build UI trang quản lý campaign giống trang products shopify",
+    "status": "In Progress",
+    "project": "GOD System",
+    "members": ["Nguyễn Tài Đạt"],
+    "startDate": "2022-04-26",
+    "endDate": "2022-04-26",
+    "storyPoint": 3,
+    "extra": false
+  },
+  {
+    "name": "Trang statistic cho product hub GOD System",
+    "status": "Todo",
+    "project": "GOD System",
+    "members": ["Nguyễn Tài Đạt"],
+    "startDate": "2022-04-28",
+    "endDate": "2022-04-28",
+    "storyPoint": 5,
+    "extra": false
+  },
+  {
+    "name": "FE - Trang home Dashboard",
+    "status": "Todo",
+    "project": "GOD System",
+    "members": ["Nguyễn Tài Đạt"],
+    "startDate": "2022-04-29",
+    "endDate": "2022-04-29",
+    "storyPoint": 1,
+    "extra": false
+  },
+  {
+    "name": "hướng dẫn Quang bên GDM lên campaign",
+    "status": "Completed",
+    "project": "POD Lovers",
+    "members": ["Nguyễn Tài Đạt"],
+    "startDate": "2022-04-25",
+    "endDate": "2022-04-25",
+    "storyPoint": 3,
+    "extra": false
+  },
+  {
+    "name": "Dashboard - Sửa lại phần hiển thị thứ tự layers khi set up campaign",
+    "status": "Completed",
+    "project": "POD Lovers",
+    "members": ["Nguyễn Tài Đạt"],
+    "startDate": "2022-04-25",
+    "endDate": "2022-04-25",
+    "storyPoint": 0,
+    "extra": false
+  },
+  {
+    "name": "Tạo product base House Flag",
+    "status": "Completed",
+    "project": "POD Lovers",
+    "members": ["Nguyễn Tài Đạt"],
+    "startDate": "2022-04-25",
+    "endDate": "2022-04-25",
+    "storyPoint": 0.5,
+    "extra": false
+  },
+  {
+    "name": "🐞 Check camp Personalized I Love Being a Grandma With Any Animal Cute fill Pattern image đang k hiển thị đúng như Artwork",
+    "status": "In Progress",
+    "project": "POD Lovers",
+    "members": ["Nguyễn Tài Đạt"],
+    "startDate": "2022-04-",
+    "endDate": "2022-04-",
+    "storyPoint": 0,
+    "extra": false
+  },
+  {
+    "name": "🐞 Sửa lại phần reorder variants campaign",
+    "status": "Completed",
+    "project": "GOD System",
+    "members": ["Nguyễn Tài Đạt"],
+    "startDate": "2022-04-27",
+    "endDate": "2022-04-27",
+    "storyPoint": 0,
+    "extra": false
+  },
+  {
+    "name": "🐞 Lỗi export mockup nhiều product base khi tạo campaign",
+    "status": "Completed",
+    "project": "GOD System",
+    "members": ["Nguyễn Tài Đạt"],
+    "startDate": "2022-04-26",
+    "endDate": "2022-04-26",
+    "storyPoint": 0,
+    "extra": false
+  },
+  {
+    "name": "FE - Build UI Vouchers + Page add new voucher",
+    "status": "Completed",
+    "project": "GOD System",
+    "members": ["Hà Phú Quý"],
+    "startDate": "2022-04-23",
+    "endDate": "2022-04-23",
+    "storyPoint": 3,
+    "extra": false
+  },
+  {
+    "name": "Loyalty - Mockup for account pages",
+    "status": "Completed",
+    "project": "GOD System",
+    "members": ["Hà Phú Quý"],
+    "startDate": "2022-04-28",
+    "endDate": "2022-04-28",
+    "storyPoint": 0,
+    "extra": false
+  },
+  {
+    "name": "FE - Build UI Tiers Program + Add new tier",
+    "status": "Completed",
+    "project": "GOD System",
+    "members": ["Hà Phú Quý"],
+    "startDate": "2022-04-28",
+    "endDate": "2022-04-28",
+    "storyPoint": 1,
+    "extra": false
+  },
+  {
+    "name": "FE - Build UI Detail Tier + Add new / update tier ",
+    "status": "Completed",
+    "project": "GOD System",
+    "members": ["Hà Phú Quý"],
+    "startDate": "2022-04-28",
+    "endDate": "2022-04-28",
+    "storyPoint": 2,
+    "extra": false
+  },
+  {
+    "name": "FE - Build UI page Loyalty in Store",
+    "status": "Todo",
+    "project": "GOD System",
+    "members": ["Hà Phú Quý"],
+    "startDate": "2022-04-28",
+    "endDate": "2022-04-28",
+    "storyPoint": 0,
+    "extra": false
+  },
+  {
+    "name": "Order Design - User Interface",
+    "status": "Completed",
+    "project": "GODrive",
+    "members": ["Hà Quang Huy"],
+    "startDate": "2022-04-27",
+    "endDate": "2022-04-27",
+    "storyPoint": 5,
+    "extra": false
+  },
+  {
+    "name": "Order Design - integrate api get workspaces of user",
+    "status": "Completed",
+    "project": "GODrive",
+    "members": ["Hà Quang Huy"],
+    "startDate": "2022-04-28",
+    "endDate": "2022-04-28",
+    "storyPoint": 3,
+    "extra": false
+  },
+  {
+    "name": "FE - integrate api search orders",
+    "status": "Completed",
+    "project": "GODrive",
+    "members": ["Hà Quang Huy"],
+    "startDate": "2022-04-29",
+    "endDate": "2022-04-29",
+    "storyPoint": 1,
+    "extra": false
+  },
+  {
+    "name": "ghép api tải order design",
+    "status": "In Progress",
+    "project": "GODrive",
+    "members": ["Hà Quang Huy"],
+    "startDate": "2022-04-28",
+    "endDate": "2022-04-28",
+    "storyPoint": 3,
+    "extra": false
+  },
+  {
+    "name": "cho phép user cấu hình thư mục lưu order design",
+    "status": "Completed",
+    "project": "GODrive",
+    "members": ["Hà Quang Huy"],
+    "startDate": "2022-04-29",
+    "endDate": "2022-04-29",
+    "storyPoint": 0.5,
+    "extra": false
+  },
+  {
+    "name": "check xem order item design đó đã được download hay chưa",
+    "status": "In Progress",
+    "project": "GODrive",
+    "members": ["Hà Quang Huy"],
+    "startDate": "2022-04-29",
+    "endDate": "2022-04-29",
+    "storyPoint": 2,
+    "extra": false
+  },
+  {
+    "name": "Nghiên cứu phần test cho FE",
+    "status": "Completed",
+    "project": "POD Lovers",
+    "members": ["Hà Quang Huy"],
+    "startDate": "2022-04-26",
+    "endDate": "2022-04-26",
+    "storyPoint": 0,
+    "extra": false
+  }
+]

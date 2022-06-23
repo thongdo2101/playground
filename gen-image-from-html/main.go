@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	html := `<div class="p-4 text-center mt-4" style="width: 500px">
   <span class="tweet-text mb-4">
@@ -19,5 +21,5 @@ func main() {
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700" rel="stylesheet">`
-
+  fmt.Println(html)
 }

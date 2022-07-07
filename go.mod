@@ -7,9 +7,9 @@ require (
 	github.com/araddon/dateparse v0.0.0-20210429162001-6b43995a97de
 	github.com/friendsofgo/errors v0.9.2 // indirect
 	github.com/garyburd/redigo v1.6.2 // indirect
+	github.com/go-playground/assert/v2 v2.0.1
 	github.com/go-resty/resty/v2 v2.7.0
 	github.com/gofrs/uuid v4.0.0+incompatible // indirect
-	github.com/gorilla/websocket v1.5.0 // indirect
 	github.com/matttproud/gocheck v0.0.0-20130118152435-ecced547db7c // indirect
 	github.com/onsi/gomega v1.15.0 // indirect
 	github.com/streadway/amqp v1.0.0

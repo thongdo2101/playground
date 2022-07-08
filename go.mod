@@ -12,6 +12,7 @@ require (
 	github.com/gofrs/uuid v4.0.0+incompatible // indirect
 	github.com/matttproud/gocheck v0.0.0-20130118152435-ecced547db7c // indirect
 	github.com/onsi/gomega v1.15.0 // indirect
+	github.com/pkg/errors v0.9.1
 	github.com/streadway/amqp v1.0.0
 	github.com/volatiletech/inflect v0.0.1 // indirect
 	github.com/volatiletech/null v8.0.0+incompatible

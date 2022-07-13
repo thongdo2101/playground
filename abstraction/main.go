@@ -15,6 +15,7 @@ func MakeFly(animal Flyable) string {
 }
 
 type Duck struct {
+	Color string
 }
 
 func (d Duck) Fly() string {
@@ -35,5 +36,5 @@ func main() {
 	butterflyAnimal := FlyableAnimal{butterfly}
 	fmt.Println(MakeFly(duckAnimal))
 	fmt.Println(MakeFly(butterflyAnimal))
-	// MakeFly chỉ biết rằng 1 FlyableAnimal truyền vào mà không biết nó là gì
+	// MakeFly chỉ biết rằng 1 FlyableAnimal truyền vào mà không biết nó là gì, duckAnimal chỉ có các phương thức mà interface khai báo, không có chứa các thuộc tính phương thức riêng của lớp duck
 }
